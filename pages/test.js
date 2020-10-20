@@ -1,11 +1,6 @@
-import styled from 'styled-components';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-export default () => (
-  <div>
-    <Title>Testing out styled components. Red H1!</Title>
-  </div>
-);
-
-const Title = styled.h1`
-  color: red;
-`;
+export default function Test (){
+    return <h1>This is a test</h1>
+};
