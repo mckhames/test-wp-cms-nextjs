@@ -6,7 +6,7 @@ export default function Header() {
       <Link href="/">
         <a className="hover:underline">Blog</a>
       </Link>
-      <Link href="test"><a className="hover:underLine">test</a></Link>
+      <Link href="/test"><a className="hover:underLine">test</a></Link>
     </h2>
 
   )
